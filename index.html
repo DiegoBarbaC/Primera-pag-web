@@ -8,6 +8,8 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <title>Rappi clon</title>
     <link rel="icon" type="image/x-png" href="./img/rappi_logo.jpg">
+    <link rel="stylesheet" href="./estilos.css">
+    <link rel="stylesheet" href="fonts/Oswald-VariableFont_wght.ttf">
 </head>
 <body>
 
@@ -19,7 +21,22 @@
           <ul class="nav navbar-nav">
             <li class="active"><a href="#">Home</a></li>
             
-            <li><input type="text" class="form-control" placeholder="Comidas, restaurantes, tiendas, productos..."></li>
+            <li>
+                <li class="navbar-brand"><a href="#">
+                <label for="ciudad">Estado</label>
+                <select name="ciudad" id="Estado" >Estado
+                <option value="">Seleccionar</option>
+                <option value="Yuc">Yucatán</option>
+                <option value="Cam">Campeche</option>
+                <option value="QRO">Quintana Roo</option>
+                </select>
+            </a</li>
+            <form class="navbar-form navbar-left" >
+                <div class="form-group" >
+                    <input type="text" class="form-control" placeholder="Comidas, restaurantes, tiendas, productos...">
+                </div>
+            </form>
+        </li>
         </ul>
           
           
@@ -28,8 +45,41 @@
             <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
           </ul>
         
+        
         </div>
       </nav>
+      <div class="container">
+        <div class="float-div">
+            <h1>Restaurantes</h1>
+            <ul>
+                <li>Burger King</li>
+                <li>KFC</li>
+                <li>Little caesars</li>
+                <li>Starbucks</li>
+                <p> ver mas...</p>
+            </ul>
+        </div>
+        <div class="float-div">
+            <h1>Farmacia</h1>
+            <ul>
+                <li>Farmacias Guadalajara</li>
+                <li>Farmacias del ahorro</li>
+                <li>Farmacias similares</li>
+                <li>Farmacias Iza</li>
+                <p> ver mas...</p>
+            </ul>
+        </div>
+        <div class="float-div">
+            <h1>Supermercado</h1>
+            <ul>
+                <li>Walmart</li>
+                <li>Chedraui</li>
+                <li>Soriana</li>
+                <li>Aki</li>
+                <p> ver mas...</p> 
+            </ul>
+        </div>
+    </div>
     
 </body>
 </html>

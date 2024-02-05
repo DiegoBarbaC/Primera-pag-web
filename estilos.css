@@ -1,0 +1,23 @@
+.container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.float-div {
+    float: left;
+    width: 300px; 
+    height: 300px; 
+    border: 2px solid #160808; 
+    margin: 10px; 
+    text-align: center;
+    background-color: bisque;
+}
+h1{
+    font-size: 20pt;
+    color: rgb(61, 8, 8);
+}
+
+body{
+    font-family: "Oswald";
+}
